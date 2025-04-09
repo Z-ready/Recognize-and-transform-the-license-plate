@@ -47,6 +47,7 @@ def transform(points, img):
 input_folder = 'input_folder_path'  # 输入文件夹路径
 output_folder = 'output_folder_path'  # 输出文件夹路径
 
+git push --set-upstream origin main
 
 # 遍历输入文件夹中的所有图像文件
 for filename in os.listdir(input_folder):
