@@ -44,8 +44,8 @@ def transform(points, img):
     canvas[:dst.shape[0], :dst.shape[1]] = dst
     return dst
 
-input_folder = 'code\\data\\CCPD\\CCPD_SMALL'  # 输入文件夹路径
-output_folder = 'code\\data\\CCPD\\first_try_output'  # 输出文件夹路径
+input_folder = 'input_folder_path'  # 输入文件夹路径
+output_folder = 'output_folder_path'  # 输出文件夹路径
 
 
 # 遍历输入文件夹中的所有图像文件
